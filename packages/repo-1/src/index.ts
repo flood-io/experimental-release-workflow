@@ -1,6 +1,6 @@
 class ExampleClass {
 	async run() {
-		return 3
+		return 4
 	}
 }
 
