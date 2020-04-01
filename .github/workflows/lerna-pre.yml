@@ -1,13 +1,13 @@
 name: Lerna Publish Alpha
 
 on:
-  pull_request:
-    branches:
-      - beta
-    types: [opened, synchronize]
+  # pull_request:
+  #   branches:
+  #     - beta
+  #   types: [opened, synchronize]
   push:
     branches:
-      - feature/**
+      - 'feature/**'
 
 jobs:
   publish_feat:
