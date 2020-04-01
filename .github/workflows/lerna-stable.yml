@@ -30,6 +30,7 @@ jobs:
       - run: yarn install
       - name: 'Publish stable to NPM'
         run: |
-          yarn lerna publish
+          yarn lerna publish --conventional-graduate --dist-tag latest --yes
+        # yarn lerna publish
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
