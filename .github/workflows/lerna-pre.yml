@@ -27,9 +27,8 @@ jobs:
         run: |
           git config --global user.email octobot@github.com
           git config --global user.name GitHub Actions
-
-      - run: yarn install
-      - name: 'Publish prerelease to NPM'
-        run: yarn lerna publish --conventional-prerelease --canary --yes
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
+      # - run: yarn install
+      # - name: 'Publish prerelease to NPM'
+      #   run: yarn lerna publish --conventional-prerelease --canary --yes
+      #   env:
+      #     NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
