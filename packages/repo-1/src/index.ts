@@ -1,6 +1,10 @@
 class ExampleClass {
 	async run() {
-		return 8
+		return this.runInternal()
+	}
+
+	private runInternal() {
+		return 10
 	}
 }
 
