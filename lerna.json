@@ -3,7 +3,7 @@
 	"packages": [
 		"packages/*"
 	],
-	"version": "1.0.3",
+	"version": "1.1.0-beta.4",
 	"npmClient": "yarn",
 	"useWorkspaces": true,
 	"command": {
@@ -24,8 +24,5 @@
 		"bootstrap": {
 			"npmClient": "yarn"
 		}
-	},
-	"ignoreChanges": [
-		"**/*.md"
-	]
+	}
 }
