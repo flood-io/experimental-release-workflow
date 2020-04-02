@@ -11,6 +11,12 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+**Note:** Version bump only for package @flood-testing/repo-1
+
+
+
+
+
 # [1.1.0-beta.1](https://github.com/flood-io/experimental-release-workflow/compare/v1.1.0-beta.0...v1.1.0-beta.1) (2020-04-02)
 
 **Note:** Version bump only for package @flood-testing/repo-1
