@@ -4,7 +4,7 @@ class ExampleClass {
 	}
 
 	private runInternal() {
-		return 14
+		return 15
 	}
 }
 
