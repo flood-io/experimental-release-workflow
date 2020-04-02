@@ -11,8 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-        with:
-          ref: ${{ github.event.push.head.ref }}
+      # with:
+      #   ref: ${{ github.event.push.head.ref }}
       - run: git fetch --prune --unshallow
 
       - uses: actions/setup-node@v1
