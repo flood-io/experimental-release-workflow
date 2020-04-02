@@ -2,9 +2,8 @@ name: Lerna Publish Alpha
 
 on:
   pull_request:
-    branches:
-      - 'feature/**'
     types: [opened, synchronize]
+    branches: ['feature**']
   # push:
   #   branches:
   #     - 'feature/**'
