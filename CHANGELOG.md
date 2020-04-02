@@ -11,6 +11,14 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 
+# [1.1.0-beta.2](https://github.com/flood-io/element/compare/v1.1.0-beta.1...v1.1.0-beta.2) (2020-04-02)
+
+**Note:** Version bump only for package experimental-flood-element
+
+
+
+
+
 # [1.1.0-beta.1](https://github.com/flood-io/element/compare/v1.1.0-beta.0...v1.1.0-beta.1) (2020-04-02)
 
 **Note:** Version bump only for package experimental-flood-element
