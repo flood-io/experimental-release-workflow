@@ -30,6 +30,6 @@ jobs:
 
       - run: yarn install
       - name: 'Publish prerelease to NPM'
-        run: yarn lerna publish --conventional-release --dist-tag alpha --preid alpha --yes
+        run: yarn lerna publish --conventional-prerelease --dist-tag alpha --preid alpha --yes
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
