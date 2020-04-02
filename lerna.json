@@ -18,6 +18,5 @@
 		"bootstrap": {
 			"npmClient": "yarn"
 		}
-	},
-	"ignoreChanges": ["**/*.md"]
+	}
 }
