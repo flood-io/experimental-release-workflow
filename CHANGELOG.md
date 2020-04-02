@@ -1,3 +1,20 @@
+# Change Log
+
+All notable changes to this project will be documented in this file.
+See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [1.1.0-beta.0](https://github.com/flood-io/element/compare/v1.0.3-beta.0...v1.1.0-beta.0) (2020-04-02)
+
+
+### Features
+
+* adds versioning strategy to readme ([2d1ef1a](https://github.com/flood-io/element/commit/2d1ef1a82f8175ee3816684a79ce4df22078b513))
+* update example class to return 6 ([9a2d432](https://github.com/flood-io/element/commit/9a2d432ecabb500aa5ba785cf067754f56ea7ed2))
+
+
+
+
+
 # [1.0.0](https://github.com/flood-io/element/compare/v1.0.3-beta.0...v1.0.0) (2020-04-02)
 
 ### Features
