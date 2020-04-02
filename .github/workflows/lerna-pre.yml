@@ -15,7 +15,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
         with:
-          ref: ${{ github.event.pull_request.head.ref }}
+          ref: ${{ github.event.push.head.ref }}
       - run: git fetch --prune --unshallow
 
       - uses: actions/setup-node@v1
